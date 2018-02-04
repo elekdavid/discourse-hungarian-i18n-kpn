@@ -2,21 +2,21 @@ hu:
   js:
     voting:
       reached_limit: "You are out of votes, remove an existing vote!"
-      list_votes: "List your votes"
-      votes_nav_help: "topics with the most votes"
-      voted: "You voted on this topic"
+      list_votes: "Igazolásaim listázása"
+      votes_nav_help: "a legtöbbet igazolt témák"
+      voted: "Már igazoltad a témát"
       allow_topic_voting: "Allow users to vote on topics in this category"
-      vote_title: "Vote"
-      vote_title_plural: "Votes"
-      voted_title: "Voted"
-      voting_closed_title: "Closed"
+      vote_title: "Igazolom"
+      vote_title_plural: "Igazolások"
+      voted_title: "Igazoltam"
+      voting_closed_title: "Lezárt"
       voting_limit: "Limit"
       votes_left:
         one: "You have 1 vote left, see <a href='{{path}}'>your votes</a>."
         other: "You have {{count}} votes left, see <a href='{{path}}'>your votes</a>."
       votes:
-        one: "1 vote"
-        other: "{{count}} votes"
+        one: "1 igazolás"
+        other: "{{count}} igazolás"
     filters:
       votes:
-        title: "Votes"
+        title: "Igazolások"
