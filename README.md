@@ -1,11 +1,7 @@
-discourse-turkish-i18n
+forked from: https://github.com/taypo/discourse-turkish-i18n-kpn
+
+discourse-hungarian-i18n
 ======================
-
-Turkish locale files for discourse
-
-Idea based on https://github.com/lidel/discourse-locale-override 
-
-This repo is used to load Turkish localization files while bootstrapping or rebuilding a discourse docker instance.
 
 You need to modify your app.yml file to get it working. Find the section where after code hooks are listed:
 
@@ -32,7 +28,7 @@ hooks:
     - exec:
         cd: /tmp
         cmd:
-          - git clone https://github.com/taypo/discourse-turkish-i18n-kpn.git
-          - cp -rT discourse-turkish-i18n/ /var/www/discourse/
-          - rm -rf discourse-turkish-i18n
+          - git clone https://github.com/elekdavid/discourse-hungarian-i18n-kpn.git
+          - cp -rT discourse-hungarian-i18n/ /var/www/discourse/
+          - rm -rf discourse-hungarian-i18n
 ```
