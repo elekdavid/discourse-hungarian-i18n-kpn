@@ -1,4 +1,4 @@
-hu_HU:
+hu:
   site_settings:
     discourse_narrative_bot_enabled: 'Discourse alámondó bot bekapcsolása'
     disable_discourse_narrative_bot_welcome_post: "A Discourse alámondó bot üdvözlő üzenetének kikapcsolása"
