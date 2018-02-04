@@ -29,6 +29,8 @@ hooks:
         cd: /tmp
         cmd:
           - git clone https://github.com/elekdavid/discourse-hungarian-i18n-kpn.git
-          - cp -rT discourse-hungarian-i18n/ /var/www/discourse/
-          - rm -rf discourse-hungarian-i18n
+          - cp -rT discourse-hungarian-i18n-kpn/ /var/www/discourse/
+          - cp -f discourse-hungarian-i18n-kpn/reload_i18n.sh /root/reload_i18n.sh
+          - chmod +x /root/reload_i18n.sh
+          - rm -rf discourse-hungarian-i18n-kpn
 ```
